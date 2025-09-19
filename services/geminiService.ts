@@ -1,15 +1,19 @@
 import { GoogleGenAI, Type } from "@google/genai";
 import type { UserProfile, Message } from '../types';
 
-if (!process.env.API_KEY) {
+// Use Vite's method for accessing environment variables, required for deployment.
+const apiKey = import.meta.env.VITE_API_KEY;
+
+if (!apiKey) {
   // In a real app, this would be handled more gracefully.
   // For this environment, we'll alert and log.
   const errorMessage = "API_KEY environment variable not set. Please set it to use the Gemini API.";
   alert(errorMessage);
-  console.error(errorMessage);
+  // Throw an error to stop the application from continuing in a broken state.
+  throw new Error(errorMessage);
 }
 
-const ai = new GoogleGenAI({ apiKey: process.env.API_KEY! });
+const ai = new GoogleGenAI({ apiKey });
 
 const getSystemInstruction = (profile: UserProfile, language: string) => {
   return `You are Miro, a compassionate and supportive AI mental health companion. The user's name is ${profile.name}, they are ${profile.age} years old and identify as ${profile.gender}. Tailor your responses to be empathetic and relevant to their demographic. Always keep your replies gentle, encouraging, and concise, under 4 sentences. Do not give medical advice. Your purpose is to listen and provide a safe space. Please respond ONLY in ${language}.`;
