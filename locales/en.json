@@ -1,0 +1,51 @@
+{
+  "onboarding": {
+    "welcome": "Welcome to Miro",
+    "subtitle": "Your personal space for mental wellness. Let's get to know you a little.",
+    "name": { "label": "What should we call you?", "placeholder": "Enter your name" },
+    "age": { "label": "How old are you?", "placeholder": "Enter your age" },
+    "gender": {
+      "label": "How do you identify?",
+      "select": "Select your gender",
+      "female": "Female", "male": "Male", "non-binary": "Non-binary", "other": "Other", "preferNotToSay": "Prefer not to say"
+    },
+    "submit": "Start My Journey"
+  },
+  "nav": { "chat": "Chat", "journal": "Journal", "tips": "Tips", "community": "Community", "history": "History" },
+  "sidebar": { "language": "Language", "editProfile": "Edit Profile", "hello": "Hello, {{name}}!", "emergency": "Emergency" },
+  "chat": {
+    "header": "Chat with Miro",
+    "welcomeMessage": "Hi {{name}}, how are you feeling today? Tell me about your day.",
+    "error": "I'm having a little trouble connecting right now. Please try again in a moment.",
+    "placeholder": "Type your message here...",
+    "search": { "placeholder": "Search in conversation..." },
+    "tts": { "speak": "Read message aloud", "speaking": "Speaking...", "stop": "Stop speaking" },
+    "stt": { "mic_on": "Turn on microphone", "mic_off": "Turn off microphone", "listening": "Listening..." },
+    "clearHistory": { "button": "Clear history", "confirm": "Are you sure you want to clear the entire chat history?" },
+    "deleteMessage": { "button": "Delete message", "confirm": "Are you sure you want to delete this message?" }
+  },
+  "history": {
+    "empty": "Your chat history is empty."
+  },
+  "journal": {
+    "title": "My Journal",
+    "mood": {
+      "weeklyGraph": "Weekly Mood Graph", "today": "How are you feeling today?", "noEntry": "No entry",
+      "aria": { "graph": "A bar chart showing your mood for the last 7 days.", "moodLogged": "Mood logged as {{mood}}", "noMoodLogged": "No mood logged for this day" }
+    },
+    "thoughts": {
+      "title": "What's on your mind?", "subtitle": "Negative entries are cleared after 24 hours.", "placeholder": "Write your thoughts here. It's a safe space.", "saving": "Saving...", "save": "Save Entry"
+    },
+    "reflections": { "title": "Positive Reflections", "empty": "Your positive journal entries will appear here. Keep writing!" }
+  },
+  "tips": {
+    "title": "Wellness Hub",
+    "affirmation": { "title": "Daily Affirmation", "loading": "Finding a positive thought for you...", "new": "New Affirmation" },
+    "wellness": { "title": "Wellness Tip", "loading": "Loading a helpful tip...", "new": "New Tip" }
+  },
+  "community": { "title": "Community Stories", "refreshing": "Refreshing...", "refresh": "Refresh", "loading": "Loading community posts...", "empty": "Could not load any posts right now. Please try again." },
+  "modal": {
+    "emergency": { "title": "Immediate Support Available", "subtitle": "If you are in crisis or distress, please reach out to one of these 24/7 helplines in India. You are not alone.", "close": "Close" },
+    "editProfile": { "title": "Edit Your Profile", "name": "Name", "age": "Age", "gender": "Gender", "cancel": "Cancel", "save": "Save Changes" }
+  }
+}

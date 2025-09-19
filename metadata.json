@@ -1,0 +1,7 @@
+{
+  "name": "Miro: Your Mental Wellness Companion",
+  "description": "An AI-powered chat application designed to provide a supportive space for mental wellness. It features a personalized AI companion, a smart journal with mood tracking, daily tips, and emergency contact information.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
