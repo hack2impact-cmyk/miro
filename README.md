@@ -1,12 +1,52 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# miro: Mental Health & Wellness AI
 
-# Run and deploy your AI Studio app
+[Live Demo →](https://mirohack2impact.netlify.app/)  
 
-This contains everything you need to run your app locally.
+Your personal space for mental wellness. Let’s get to know you a little.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1s5Pnc8Qn9QyVhb7u2T6bLKul7Ic5nqGG
+--- 
+
+---
+
+## Overview
+
+miro is an AI-driven companion designed to support daily mental health and wellness routines. Leveraging Gemini’s advanced NLP, it delivers personalized mood assessments, guided mindfulness exercises, and context-aware coping strategies. Built with privacy and accessibility in mind, miro helps users cultivate lasting habits and track progress over time.
+
+---
+
+## Features
+
+- Personalized mood assessments with trend visualization  
+- Guided breathing and mindfulness sessions  
+- Contextual journaling prompts and coping recommendations  
+- Goal-setting dashboard with reminders and milestones  
+- Secure authentication and encrypted data storage  
+
+---
+
+## Tech Stack
+
+| Component        | Technology             |
+|------------------|------------------------|
+| AI Backend       | Gemini API             |
+| Frontend         | React · Chakra UI      |
+| Server           | Node.js · Express      |
+| CI/CD            | GitHub Actions         |
+
+---
+
+## Live Demo
+
+Check out the deployed app:  
+https://mirohack2impact.netlify.app/
+
+---
+
+## Installation
+
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/hack2impact-cmyk/miro/
 
 ## Run Locally
 
